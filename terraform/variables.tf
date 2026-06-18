@@ -17,13 +17,13 @@ variable "repository_visibility" {
 }
 
 variable "github_token" {
-    description = "The GitHub personal access token"
-    type        = string
-    sensitive   = true
+  description = "The GitHub personal access token"
+  type        = string
+  sensitive   = true
 }
 
 variable "github_owner" {
-    description = "The GitHub owner (user or organization)"
-    type        = string
-    default     = "RobertISH"
+  description = "The GitHub owner (user or organization)"
+  type        = string
+  default     = "RobertISH"
 }
